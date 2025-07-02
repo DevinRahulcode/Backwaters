@@ -1,0 +1,458 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1536px) {
+    .workspace_img img{
+        height: 400px;
+    }
+
+    .header_logo img{
+        height: 90px;
+    }
+
+    .side_img{
+        bottom: 0;
+        left: 0%;
+    }
+
+    .spaces_letter img{
+        height: 480px;
+    }
+
+    .spaces_letter{
+        top: -40px;
+    }
+
+    .footer_logo img {
+        height: 100px;
+    }
+
+    .slider_heading{
+        line-height: 100px;
+        font-size: 90px;
+    }
+
+    .blog_banner h1{
+        font-size: 52px;
+    }
+      
+    
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1399px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+    .slider_heading{
+        line-height: 90px;
+        font-size: 80px;
+    }
+
+    h1{
+        font-size: 54px;
+    }
+
+    .large_icon_div {
+        width: 100px;
+        height: 100px;
+    }
+
+    .rooms_img_row img {
+        height: 490px;
+    }
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    .large_icon_div {
+        width: 120px;
+        height: 120px;
+    }
+
+    .carousel-container {
+        height: 480px;
+    }
+
+    .feed_article .blog_image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .blog_title{
+        font-size: 32px;
+    }
+
+    .inner_caption {
+        margin-bottom: 16px;
+    }
+
+    .inner_banner {
+        height: 350px;
+    }
+
+    .sec_heading{
+        font-size: 40px;
+    }
+
+    .rooms_img_row img {
+        height: 400px;
+    }
+    
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+  
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    .slider_heading{
+        font-size: 72px;
+        line-height: 80px;
+    }
+
+    .slider_sub_heading {
+        font-size: 26px;
+    }
+
+    .grid_box_1, .grid_box_2{
+        height: 280px;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    .promotion-ad-wrapper {
+        left: 20px;
+    }
+
+    .promo-content img{
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+        margin-top: -50px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .promo-content a{
+        width: 100%;
+        display: block;
+    }
+
+    .home_rooms_content{
+        margin-top: -16px;
+    }
+
+    .accomodation_swiper img{
+        height: 420px;
+    }
+
+    .accomodation_swiper .swiper-button-prev{
+        left: -10%;
+    }
+    .accomodation_swiper .swiper-button-next{
+        right: -10%;
+    }
+
+    .carousel-container {
+        height: 350px;
+    }
+
+    .fixed-caption {
+        left: 15px;
+    }
+
+    .main_slider .carousel-item .bg_img_fill {
+        height: 700px;
+    }
+
+    .feed_article .blog_image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .animated_box p {
+        font-size: 16px;
+    }
+
+    .parallax-section {
+        height: 400px;
+    }
+
+    .bg_styled_text {
+        font-size: 38px;
+    }
+
+    .sec_padding {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    
+    .gallery_row img{
+        height: 180px;
+    }
+
+    .promotion-ad-wrapper {
+        bottom: 95px; 
+    }
+
+    .logo_info_card{
+        display: none;
+    }
+
+    .header_logo {
+        padding-bottom: 0px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 768px) {
+    .slider_heading{
+        font-size: 60px;
+        line-height: 70px;
+    }
+	
+    .bg_sec {
+        height: 310px;
+    }
+
+    .sec_padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .rooms_img_row img {
+        height: 350px;
+    }
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+    .accomodation_swiper img{
+        height: 380px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    .related_img {
+        height: 280px;
+    }
+
+    .sec_heading{
+        font-size: 28px;
+    }
+
+    .parallax-section {
+        height: 300px;
+    }
+
+    .primary_btn, .form_btn{
+        font-size: 14px;
+    }
+
+    .home_rooms_content {
+        margin-top: 20px;
+    }
+
+    .rooms_img_row img {
+        height: 350px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 575px) {
+    .promotion-ad-wrapper {
+        width: 320px;
+    }
+
+    .disc_btn{
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .disc_btn i{
+        font-size: 24px;
+    }
+
+    .disc_btn span{
+        display: none;
+    }
+
+    .accomodation_swiper img{
+        height: 350px;
+    }
+
+    .accomodation_swiper .swiper-button-prev, .accomodation_swiper .swiper-button-next{
+        width: 50px;
+        height: 50px;
+    }
+
+    .accomodation_swiper .swiper-button-prev{
+        left: -10px;
+    }
+    .accomodation_swiper .swiper-button-next{
+        right: -10px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .amenities_sec{
+        padding: 40px;
+    }
+
+    .main_slider .carousel-item .bg_img_fill {
+        height: 600px;
+    }
+
+    .slider_heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .slider_sub_heading {
+        font-size: 20px;
+    }
+
+    .slider_image_caption{
+        bottom: 10px;
+    }
+
+    .blog_title{
+        font-size: 24px;
+    }
+
+    .form-check label{
+        font-size: 14px;
+    }
+
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.carousel-caption {
+        right: 8%;
+        left: 8%;
+    }
+
+    .padding_box {
+        padding: 30px;
+    }
+
+    .related_img {
+        height: 222px;
+    }
+
+    .feed_article h3 {
+        font-size: 16px;
+    }
+
+    .rooms_img_row img {
+        height: 250px;
+    }
+
+}
+
+@media only screen and (max-width : 460px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+	.feature_icon_box i{
+        font-size: 14px;
+    }
+
+	.home_rooms_content {
+        padding: 30px;
+    }
+
+    .carousel-container {
+        height: 280px;
+    }
+
+    .accomodation_swiper img {
+        height: 230px;
+    }
+
+    .card_content_div {
+        padding: 35px;
+    }
+
+    .feed_article h3 {
+        font-size: 16px;
+    }
+
+    .feed_article .blog_image {
+        width: 60px;
+        height: 60px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+    
+    .gallery_row img {
+        height: 160px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+
+}
+
+
+@media only screen and (max-width : 320px) {
+
+
+
+}
