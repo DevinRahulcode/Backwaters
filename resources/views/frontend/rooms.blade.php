@@ -98,7 +98,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="booking.html" class="">
+        <a href="{{ url('/booking') }}" class="">
           <button class="primary_btn mt-3">BOOK NOW</button>
         </a>
       </div>

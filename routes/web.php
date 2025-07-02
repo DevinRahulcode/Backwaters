@@ -10,6 +10,7 @@ use App\Http\Controllers\Front\ContactController;
 use App\Http\Controllers\Front\GalleryController;
 use App\Http\Controllers\Front\ContactUsController;
 use App\Http\Controllers\Front\ResponsibilityController;
+use App\Http\Controllers\Front\BookingController;
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -24,7 +25,8 @@ Route::post('contact-us/store', [ContactUsController::class, 'store'])->name('co
 Route::get('/gallery', [GalleryController::class, 'index'])->name('contact');
 Route::get('/responsibility', [ResponsibilityController::class, 'index'])->name('responsibility');
 Route::get('/rooms', [RoomController::class, 'index'])->name('rooms');
-Route::get('/ourstory', [StoryController::class, 'index'])->name('rooms');
+Route::get('/ourstory', [StoryController::class, 'index'])->name('ourstory');
+Route::get('/booking', [BookingController::class, 'index'])->name('booking');
 
 
 

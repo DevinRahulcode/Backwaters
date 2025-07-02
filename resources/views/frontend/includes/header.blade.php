@@ -34,6 +34,10 @@ use App\Helpers\HeaderHelper;
                 $meta_details = HeaderHelper::getMeta('Blog Details');
                 break;
 
+            case 9:
+                $meta_details = HeaderHelper::getMeta('Booking');
+                break;
+
             default:
                 $meta_details = HeaderHelper::getMeta('Home');
                 break;
